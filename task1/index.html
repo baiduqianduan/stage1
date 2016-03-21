@@ -29,7 +29,9 @@
             这是一个很长很长的段落,  这是一个很长很长的段落,  这是一个很长很长的段落,  这是一个很长很长的段落,
             这是一个很长很长的段落,  这是一个很长很长的段落,  这是一个很长很长的段落。
         </p>
-        <img src="1.jpg" alt="图片展示" width="300" height="242">
+        <figure>
+            <img src="1.jpg" alt="图片展示" width="300" height="242">
+        </figure>
         <p>  这是一个很长很长的段落,这是一个很长很长的段落,这是一个很长很长的段落,这是一个很长很长的段落,
             这是一个很长很长的段落,这是一个很长很长的段落,这是一个很长很长的段落,这是一个很长很长的段落,
             换行了<br/>
@@ -57,7 +59,9 @@
                 这是一个很长很长的段落,  这是一个很长很长的段落,  这是一个很长很长的段落,  这是一个很长很长的段落,
                 这是一个很长很长的段落,  这是一个很长很长的段落,  这是一个很长很长的段落。
             </p>
-            <img src="1.jpg" alt="图片" width="300" height="242">
+            <figure>
+                <img src="1.jpg" alt="图片" width="300" height="242">
+            </figure>
             <ul>
                 <li>列表项目一</li>
                 <li>列表项目二</li>
@@ -68,40 +72,56 @@
             <h2>图片</h2>
             <ul>
                 <li>
-                    <p>好看的图片</p>
-                    <img src="1.jpg" alt="图片" width="300" height="242">
+                    <figure>
+                        <figcaption>好看的图片</figcaption>
+                        <img src="1.jpg" alt="图片" width="300" height="242">
+                    </figure>
+                </li>
+                <li>
+                    <figure>
+                        <figcaption>好看的图片</figcaption>
+                        <img src="1.jpg" alt="图片" width="300" height="242">
+                    </figure>
+                </li>
+                <li>
+                    <figure>
+                        <figcaption>好看的图片</figcaption>
+                        <img src="1.jpg" alt="图片" width="300" height="242">
+                    </figure>
                 </li>
                 <li>
                     <p>好看的图片</p>
                     <img src="1.jpg" alt="图片" width="300" height="242">
                 </li>
                 <li>
-                    <p>好看的图片</p>
-                    <img src="1.jpg" alt="图片" width="300" height="242">
+                    <figure>
+                        <figcaption>好看的图片</figcaption>
+                        <img src="1.jpg" alt="图片" width="300" height="242">
+                    </figure>
                 </li>
                 <li>
-                    <p>好看的图片</p>
-                    <img src="1.jpg" alt="图片" width="300" height="242">
+                    <figure>
+                        <figcaption>好看的图片</figcaption>
+                        <img src="1.jpg" alt="图片" width="300" height="242">
+                    </figure>
                 </li>
                 <li>
-                    <p>好看的图片</p>
-                    <img src="1.jpg" alt="图片" width="300" height="242">
+                    <figure>
+                        <figcaption>好看的图片</figcaption>
+                        <img src="1.jpg" alt="图片" width="300" height="242">
+                    </figure>
                 </li>
                 <li>
-                    <p>好看的图片</p>
-                    <img src="1.jpg" alt="图片" width="300" height="242">
+                    <figure>
+                        <figcaption>好看的图片</figcaption>
+                        <img src="1.jpg" alt="图片" width="300" height="242">
+                    </figure>
                 </li>
                 <li>
-                    <p>好看的图片</p>
-                    <img src="1.jpg" alt="图片" width="300" height="242">
-                </li>
-                <li>
-                    <p>好看的图片</p>
-                    <img src="1.jpg" alt="图片" width="300" height="242">
-                </li>
-                <li>
-                    <p>好看的图片</p>
-                    <img src="1.jpg" alt="图片" width="300" height="242">
+                    <figure>
+                        <figcaption>好看的图片</figcaption>
+                        <img src="1.jpg" alt="图片" width="300" height="242">
+                    </figure>
                 </li>
             </ul>
         </section>
@@ -171,11 +191,11 @@
                 <input type="password" name="password" id="password2" placeholder="这是一个文本输入框">
                 <p>密码请为6-16位数字</p>
                 <label>性别：</label>
-                <input type="radio" name="sex" value="male">男
+                <input type="radio" name="sex" value="male" checked>男
                 <input type="radio" name="sex" value="female">女
                 <br/>
                 <label for="city">城市:</label>
-                <select id="city" name="city">
+                <select id="city" name="city" size="1" multiple="multiple">
                     <option value="beijing">北京</option>
                     <option value="shanghai">上海</option>
                     <option value="nankjing">南京</option>
