@@ -642,10 +642,404 @@ a
     left:50%;
     margin-left: -52px;
 }
+#wrapper .content4 .top .right ul
+{
+    position:absolute;
+    left:185px;
+    top:410px;
+}
+#wrapper .content4 .top .right ul li
+{
+    float:left;
+    width:8px;
+    height:8px;
+    display: block;
+    border-radius: 4px;
+    border:1px solid gray;
+    margin-right: 13px;
+}
+#wrapper .content4 .top .right ul li:hover
+{
+    background-color: gray;
+}
+#wrapper .content4 .bottom
+{
+    width:1280px;
+    height:520px;
+    position: relative;
+}
+#wrapper .content4 .bottom .left,#wrapper .content4 .bottom .center
+{
+    float:left;
+}
+#wrapper .content4 .bottom .left
+{
+    width:425px;
+    height:100%;
+    background-color: RGB(232,80,79);
+    text-align: center;
+    color:#ffffff;
+    font-size: 20px;
+    position: relative;
+    font-family: "宋体";
+}
+#wrapper .content4 .bottom .left p
+{
+    position: absolute;
+    top:170px;
+    left:128px;
+    line-height: 30px;
+}
+#wrapper .content4 .bottom .left hr
+{
+    width:31px;
+    height:0;
+    border: 1px solid #ffffff;
+    position: absolute;
+    left:192px;
+    top:250px;
+}
+#wrapper .content4 .bottom .left button
+{
+    width:170px;
+    height:42px;
+    border:2px solid #ffffff;
+    color:#ffffff;
+    background-color:RGB(232,80,79) ;
+    font-family: "宋体";
+    font-size: 20px;
+    position: absolute;
+    left:122px;
+    top:276px;
+}
 
+#wrapper .content4 .bottom .center
+{
+    width:auto;
+    height:100%;
+    position: relative;
+    text-align: center;
+    color:#000000;
+    font-size: 20px;
+    font-family: "宋体";
+}
+#wrapper .content4 .bottom .center p
+{
+    margin-left: 126px;
+    margin-top: 172px;
+    line-height: 30px;
+}
+#wrapper .content4 .bottom .center hr
+{
+    width:31px;
+    height:0;
+    border: 1px solid gray;
+    position: absolute;
+    left:192px;
+    top:250px;
+}
+#wrapper .content4 .bottom .center button
+{
+    width:170px;
+    height:42px;
+    border:2px solid RGB(232,80,79);
+    color:RGB(232,80,79);
+    background-color:#ffffff;
+    font-family: "宋体";
+    font-size: 20px;
+    position: absolute;
+    left:122px;
+    top:276px;
+}
+#wrapper .content4 .bottom .right
+{
+    width:427px;
+    height:521px;
+    float:right;
+    background-image: url(../images/task_1_7_13_04.gif);
+}
+#wrapper .content5
+{
+    position: relative;
+    height:750px;
+    width:1280px;
+}
+#wrapper .content5 .top
+{
+    height:92px;
+    width:100%;
+    position: relative;
+    font-family: "宋体";
+    text-align: center;
+    padding-top: 118px;
+}
+#wrapper .content5 .top h2
+{
+    font-size: 20px;
+}
+#wrapper .content5 .top hr
+{
+    width:32px;
+    height:0;
+    border:1px solid RGB(232,80,79);
+    margin-left:624px;
+    margin-top:8px;
+}
+#wrapper .content5 .top p
+{
+    font-family: "微软雅黑";
+    font-size: 14px;
+    color:gray;
+    margin-top: 15px;
+    line-height: 18px;
+}
+#wrapper .content5 .bottom
+{
+    height:442px;
+    width:100%;
+    padding-top: 98px;
+}
+#wrapper .content5 .bottom .left,#wrapper .content5 .bottom .right {
+    float:left;
+}
+#wrapper .content5 .bottom .left
+{
+    width:340px;
+    height:380px;
+    font-family: "黑体";
+    padding-left: 130px;
+}
+#wrapper .content5 .bottom .left h2
+{
+    color:#000000;
+    font-size: 18px;
+}
+#wrapper .content5 .bottom .left p
+{
+    color:gray;
+    font-size: 14px;
+    margin-top: 20px;
+    line-height: 21px;
+}
+#wrapper .content5 .bottom .left a
+{
+    display: block;
+    color:gray;
+    font-size: 16px;
+    margin-top: 6px;
+    margin-left:270px;
+    margin-bottom: 20px;
+}
+#wrapper .content5 .bottom .left a span
+{
+    font-size: 6px;
+    margin-right: 3px;
+}
+#wrapper .content5 .bottom .right
+{
+    float: right;
+    width:750px;
+    height:380px;
+    font-family: "黑体";
+    padding-left: 60px;
+    font-size: 16px;
+}
+#wrapper .content5 .bottom .right .name
+{
+    width:297px;
+    height:28px;
+    background-color: RGB(237,237,239);
+    padding-top: 12px;
+    padding-left:13px;
+    float:left;
+    margin-right: 20px;
+    margin-bottom:20px;
+}
+#wrapper .content5 .bottom .right .name label
+{
+    font-size:16px;
+}
+#wrapper .content5 .bottom .right .name input[type="text"]
+{
+    background-color: RGB(237,237,239);
+    border:none;
+    height:20px;
+    width:200px;
+}
+#wrapper .content5 .bottom .right .age
+{
+    width:297px;
+    height:28px;
+    background-color: RGB(237,237,239);
+    padding-top: 12px;
+    padding-left:13px;
+    float:left;
+    margin-bottom:20px;
+}
+#wrapper .content5 .bottom .right .age input[type="text"]
+{
+    background-color: RGB(237,237,239);
+    border:none;
+    height:20px;
+    width:200px;
+}
+#wrapper .content5 .bottom .right .tel
+{
+    width:297px;
+    height:28px;
+    background-color: RGB(237,237,239);
+    padding-top: 12px;
+    padding-left:13px;
+    float:left;
+    margin-right: 20px;
+    margin-bottom:20px;
+}
+#wrapper .content5 .bottom .right .tel input[type="text"]
+{
+    background-color: RGB(237,237,239);
+    border:none;
+    height:20px;
+    width:170px;
+}
+#wrapper .content5 .bottom .right .address
+{
+    width:297px;
+    height:28px;
+    background-color: RGB(237,237,239);
+    padding-top: 12px;
+    padding-left:13px;
+    float:left;
+    margin-right: 20px;
+    margin-bottom:20px;
+}
+#wrapper .content5 .bottom .right .address input[type="text"]
+{
+    background-color: RGB(237,237,239);
+    border:none;
+    height:20px;
+    width:170px;
+}
+#wrapper .content5 .bottom .right .life
+{
+    width:627px;
+    height:108px;
+    background-color: RGB(237,237,239);
+    padding-top: 12px;
+    padding-left:13px;
+    float:left;
+    margin-bottom:20px;
+}
+#wrapper .content5 .bottom .right .life textarea
+{
+    width:614px;
+    height:72px;
+    background-color: RGB(237,237,239);
+    border:none;
+    margin-top: 4px;
+}
+#wrapper .content5 .bottom .right button
+{
+    width:640px;
+    height:40px;
+    background-color:RGB(237,237,239);
+    border: none;
+    font-size:16px;
+    font-family: "黑体";
+    text-align: center;
+}
+#wrapper .content6
+{
+    width:1280px;
+    height:360px;
+    background-color: RGB(51,54,63);
+    text-align: center;
+    font-family: "黑体";
+    color:#ffffff;
+    position: relative;
+}
+#wrapper .content6 h2
+{
+    font-size: 20px;
+    position: absolute;
+    left:600px;
+    top:90px;
+}
+#wrapper .content6 p
+{
+    font-size: 12px;
+    position: absolute;
+    left:403px;
+    top:120px;
+    line-height:20px;
+}
+#wrapper .content6 form
+{
+    position: absolute;
+    left:385px;
+    top:184px;
+}
 
+#wrapper .content6 input[type="text"]
+{
+    width:430px;
+    height:40px;
+    border:none;
+    font-size: 16px;
+    text-indent: 10px;
+}
+#wrapper .content6 button
+{
+    font-family: "黑体";
+    width:82px;
+    height:40px;
+    background-color: RGB(113,113,121);
+    border:none;
+    font-size: 16px;
+    color: #ffffff;
+    letter-spacing: 10px;
+    text-align: center;
+    text-indent: 10px;
+    margin-left: -8px;
+    float:right;
+}
+#wrapper .content6 ul
+{
+    position: absolute;
+    left:550px;
+    top:257px;
+}
+#wrapper .content6 ul li
+{
+    float:left;
+    margin-right: 20px;
+}
 
-
+#footer
+{
+    width:1280px;
+    height:38px;
+    background-color: RGB(48,48,58);
+    padding-top: 24px;
+    font-family: "黑体";
+    color:#ffffff;
+    font-size: 12px;
+}
+#footer p
+{
+    margin-left:96px;
+    float: left;
+    margin-top: 4px;
+}
+#footer a
+{
+    display: block;
+    float: right;
+    font-family: "黑体";
+    color:#ffffff;
+    font-size: 12px;
+    margin-right: 40px;
+    margin-top: 4px;
+}
 
 
 
